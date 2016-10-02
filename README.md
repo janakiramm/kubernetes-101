@@ -3,7 +3,7 @@ Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough 
 
 Make sure that you have access to a Kubernetes cluster.
 
-## Build a Docker image from existing Python source code and push it to Docker Hub. Replace <DOCKER_HUB_USER> with your Docker Hub username.
+## Build a Docker image from existing Python source code and push it to Docker Hub. Replace DOCKER_HUB_USER with your Docker Hub username.
 ```
 cd Docker
 docker build . -t <DOCKER_HUB_USER>/web
