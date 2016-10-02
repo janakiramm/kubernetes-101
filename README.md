@@ -1,5 +1,5 @@
 # kubernetes-101
-Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough is available at (here)[https://youtu.be/zeS6OyDoy78]
+Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough is available at [here].(https://youtu.be/zeS6OyDoy78)
 
 Make sure that you have access to a Kubernetes cluster.
 
