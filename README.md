@@ -3,7 +3,7 @@ Tutorial to build and deploy a simple Python app in Kubernetes. The walkthrough 
 
 Make sure that you have access to a Kubernetes cluster.
 
-## Build a Docker image from existing Python source code and push it to Docker Hub. Replace 
+## Build a Docker image from existing Python source code and push it to Docker Hub. Replace <DOCKER_HUB_USER> with your Docker Hub username.
 ```
 cd Docker
 docker build . -t <DOCKER_HUB_USER>/web
@@ -36,12 +36,12 @@ kubectl get pods
 kubectl get svc
 ```
 
-## Get the NodePort for the web service. Make a note of the port
+## Get the NodePort for the web Service. Make a note of the port.
 ```
 kubectl describe svc web
 ```
 
-## Test the app by accessing the NodePort of one of the nodes
+## Test the app by accessing the NodePort of one of the nodes.
 
 ```
 kubectl get nodes
