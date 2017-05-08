@@ -9,6 +9,8 @@ cd Docker
 docker build -t <DOCKER_HUB_USER>/web .
 docker push <DOCKER_HUB_USER>/web
 ```
+## Change the Docker composition to use your image
+Edit and replace docker-compose.yml to <DOCKER_HUB_USER>/web
 
 ## Launch the app with Docker Compose
 ```
@@ -17,7 +19,7 @@ docker-compose up -d
 
 ## Test the app
 ```
-curl localhost:5000
+curl localhost:3000
 ```
 
 ## Deploy the app to Kubernetes
